@@ -14,7 +14,7 @@ class TaskController {
   final TextEditingController taskDueTimeController;
   final TextEditingController taskDescriptionController;
 
-  final TaskListController taskListController; // Added TaskListController
+  final TaskListController taskListController; 
 
   TaskController({
     required this.scaffoldKey,
@@ -22,7 +22,7 @@ class TaskController {
     required this.taskDueDateController,
     required this.taskDueTimeController,
     required this.taskDescriptionController,
-    required this.taskListController, // Pass TaskListController
+    required this.taskListController, 
   });
 
   Future<void> addTask(BuildContext context) async {
